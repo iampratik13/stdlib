@@ -125,6 +125,8 @@ eslint.rules[ 'stdlib/jsdoc-return-annotations-values' ] = 'off'; // FIXME: remo
 
 /**
 * Do not enforce disallowing empty lines between module-level require statements.
+*
+* @private
 */
 eslint.rules[ 'stdlib/no-empty-lines-between-requires' ] = 'off';
 
